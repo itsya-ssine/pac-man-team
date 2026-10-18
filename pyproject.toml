@@ -1,0 +1,17 @@
+[project]
+name = "pacman"
+version = "0.1.0"
+description = "Pac-Man recreated in Python (42 curriculum)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "yelmajdo" },
+    { name = "rhlou" },
+]
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "flake8",
+    "mypy",
+]
